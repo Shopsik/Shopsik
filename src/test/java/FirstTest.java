@@ -8,7 +8,6 @@ import static org.testng.Assert.assertTrue;
 
 public class FirstTest extends BaseTest {
 
-
     @Test
     public void zipTest() {
         browser.get("https://sharelane.com/cgi-bin/register.py");
@@ -26,8 +25,4 @@ public class FirstTest extends BaseTest {
         boolean RegButisPresent = browser.findElement(By.xpath("//*[@value='Register']")).isDisplayed();
         assertTrue(RegButisPresent);
     }
-
-
-
 }
-
